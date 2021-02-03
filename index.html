@@ -22,7 +22,7 @@
         <h2 class="left-column__subtitle">Join us for this live webinar</h2>
       </div>
       <div class="right-column">
-        <div class="right-column__contents">
+        <div class="right-column__contents" id="right-column-contents">
           <h2 class="right-column__title">Become a BBQ master!</h2>
           <p class="right-column__subtitle">Register today</p>
           <p class="right-column__description">
@@ -31,14 +31,16 @@
             process is to learn from the best. You can do just that by signing
             up for this free webinar!
           </p>
-          <form class="form">
+          <form id="submit-form" class="form">
             <input
+              name="firstName"
               type="text"
               class="form__input form__input-data"
               placeholder="first name"
               required
             />
             <input
+              name="submittedEmail"
               type="email"
               class="form__input form__input-data"
               placeholder="email"
@@ -58,4 +60,5 @@
       </div>
     </div>
   </body>
+  <script src="index.js"></script>
 </html>
