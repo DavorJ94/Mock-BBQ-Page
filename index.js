@@ -10,7 +10,7 @@ document.getElementById("submit-form").addEventListener("submit", (event) => {
           Thank you for becoming our valuable and respected member.</p>
           <p class="form__legal">Don't worry, your information is safe with us!</p>
   `;
-  let contents = document.getElementById("right-contents");
+  let contents = document.getElementById("right-column-contents");
 
   contents.innerHTML = messageAfterSubmit;
 });
